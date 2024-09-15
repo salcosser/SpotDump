@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SpotDump.Models\SpotDump.Models.csproj" />
-    <ProjectReference Include="..\SpotDump\SpotDump.HTTP.csproj" />
+    <ProjectReference Include="..\SpotDump.HTTP\SpotDump.HTTP.csproj" />
   </ItemGroup>
 
 </Project>
