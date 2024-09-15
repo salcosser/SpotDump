@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpotDump.HTTP", "SpotDump.HTTP.csproj", "{6ED021B1-619B-4AC1-83C2-AB1C6C0C18B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotDump.HTTP", "SpotDump/SpotDump.HTTP.csproj", "{6ED021B1-619B-4AC1-83C2-AB1C6C0C18B8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpotDump.Models", "..\SpotDump.Models\SpotDump.Models.csproj", "{2D1E60A5-FC19-45BC-8460-9832BA7BB469}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotDump.Models", "SpotDump.Models/SpotDump.Models.csproj", "{2D1E60A5-FC19-45BC-8460-9832BA7BB469}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpotDump.WebApi", "..\SpotDump.WebApi\SpotDump.WebApi.csproj", "{F2882491-BF7E-4646-BF51-9156422E97C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotDump.WebApi", "SpotDump.WebApi/SpotDump.WebApi.csproj", "{F2882491-BF7E-4646-BF51-9156422E97C8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpotDump.WebApi.Repositories", "..\SpotDump.WebApi.Services\SpotDump.WebApi.Repositories.csproj", "{FC2E94A5-1ECB-4A85-BA5C-9539653A498B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotDump.WebApi.Repositories", "SpotDump.WebApi.Repositories/SpotDump.WebApi.Repositories.csproj", "{FC2E94A5-1ECB-4A85-BA5C-9539653A498B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,6 @@
+@SpotDump.WebApi_HostAddress = http://localhost:5043
+
+# GET {{SpotDump.WebApi_HostAddress}}/HealthCheck/CheckHealth
+# Accept: application/json
+
+# ###
