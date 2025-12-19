@@ -12,14 +12,15 @@ using System.Threading.Tasks;
 namespace SpotDump.WebApi.Repositories {
     public class GenreRepository : IGenreRepository {
         private readonly ILogger<GenreRepository> _log;
-        private readonly HttpClient _client;
+        private readonly IHttpClientFactory _httpClientFactory;
         public GenreRepository(ILogger<GenreRepository> log, IHttpClientFactory factory) {
             _log = log;
-            _client = factory.Client;
+            _httpClientFactory = factory;
         }
 
         public async Task<List<string>> GetGeneresAsync() {
-            var resp = await _client.GetAsync("recommendations/available-genre-seeds");
+            var client = _httpClientFactory.Client;
+            var resp = await client.GetAsync("recommendations/available-genre-seeds");
 
             if (resp.IsSuccessStatusCode) {
                 var result = await resp.Content.ReadFromJsonAsync<GenreSeeds>();
