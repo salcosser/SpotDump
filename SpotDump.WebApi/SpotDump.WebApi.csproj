@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SpotDump.WebApi.Repositories\SpotDump.WebApi.Repositories.csproj" />
+    <ProjectReference Include="..\SpotDump.Models\SpotDump.Models.csproj" />
   </ItemGroup>
 
 </Project>
